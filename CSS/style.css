@@ -123,9 +123,8 @@ main {
 }
 .block1 img {
     height: 468px;
-    max-width: 800px;
+    max-width: 700px;
     margin-top: 100px;
-    margin-right: 100px;
     margin-left: -100px;
 }
 
@@ -135,7 +134,7 @@ main {
     align-self: center;
     background: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
-    max-width: 1500px;
+    max-width: 1300px;
     margin-top: 100px;
 }
 
@@ -366,7 +365,7 @@ h5 {
     justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 50px auto;
     align-items: center;
 }
@@ -395,7 +394,7 @@ h5 {
 }
 
 .buttons {
-    margin-left: 500px;
+    margin-left: auto;
 }
 
 .btn-more {
@@ -408,6 +407,7 @@ h5 {
     font-size: 16px;
     font-weight: 600;
     margin: 0px 50px;
+    color: white;
 }
 
 .ftr-nav {
@@ -518,4 +518,8 @@ margin-left: 120px;
 
 .ftr-img-bot {
    
+}
+
+.menu1 a:nth-child(n+2) {
+    font-weight: 400;
 }
